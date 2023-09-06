@@ -60,3 +60,5 @@ $ cd portfolio_digital_dsm
 # E você tera acesso a todos os arquivos do repositório
 
 ```
+
+(Validação professor FGMC - 1DSM - 2023-02)
