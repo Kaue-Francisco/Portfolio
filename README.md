@@ -2,7 +2,7 @@
 
 <br>
 
-<div style="text-align:center;">
+<div align="center">
     <img src="./mgt/perfil.jpeg" width="480" height='600'>
 </div>
 
@@ -17,7 +17,7 @@
 
 <h2 align="center">TECNOLOGIAS</h2>
 
-<div style="display:flex;">
+<div align="center" style="display:flex;">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="50px" style="padding-left:10px;"/>
 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" width="50px" style="padding-left:10px;"/> 
