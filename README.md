@@ -10,8 +10,8 @@
 <p>Sou o Kauê tenho 18 anos e estou cursando na FATEC de São José dos Campos e também sou estágiario em Desenvolvimento de Software.</p>
 
 ### Contato
-[![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kauesantos.francisco@gmail.com)
-[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](linkedin.com/in/kauê-francisco-3b13aa255)
+<p>email: kauesantos.francisco@gmail.com</p>
+<p>linkedin: https://www.linkedin.com/in/kau%C3%AA-francisco-3b13aa255/ </p>
 
 <br><br>
 
