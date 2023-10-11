@@ -3,7 +3,7 @@
 <br>
 
 <div align="center">
-    <img src="./mgt/perfil.jpeg" width="480" height='600'>
+    <img src="./mgt/perfil.png" width="480" height='600'>
 </div>
 
 ### Quem sou Eu?
@@ -57,7 +57,14 @@ $ git clone https://github.com/Kaue-Francisco/portfolio_digital_dsm.git
 # Agora acesse a pasta clonada
 $ cd portfolio_digital_dsm
 
-# E você tera acesso a todos os arquivos do repositório
+# Agora acesse a página src para visualizar os arquivos de código
+$ cd src/
+
+# Agora entre na pasta templates para visualizar as páginas do portfólio!
+$ cd templates/
+
+# Ainda pelo terminal faça o seguinte comando para executar o arquivo index.html e navegar pelo portfólio!
+$ xdg-open index.html
 
 ```
 
