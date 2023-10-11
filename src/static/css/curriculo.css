@@ -1,0 +1,20 @@
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.box {
+    max-width: 1200px;
+    border-radius: 30px;
+    background-color: #1f5f61;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.title-box {
+    text-align: center;
+}
