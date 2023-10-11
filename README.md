@@ -63,8 +63,17 @@ $ cd src/
 # Agora entre na pasta templates para visualizar as páginas do portfólio!
 $ cd templates/
 
+# Se você estiver utilizando Linux:
 # Ainda pelo terminal faça o seguinte comando para executar o arquivo index.html e navegar pelo portfólio!
 $ xdg-open index.html
+
+# Se você estiver utilizando Windows:
+# Ainda pelo terminal faça o seguinte comando para executar o arquivo index.html e navegar pelo portfólio!
+$ start index.html
+
+# Se você estiver utilizando Mac:
+# Ainda pelo terminal faça o seguinte comando para executar o arquivo index.html e navegar pelo porfólio!
+$ open index.html
 
 ```
 
