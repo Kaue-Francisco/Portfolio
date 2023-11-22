@@ -85,7 +85,8 @@ $ flask run
 
 <h2 align="center">Instruções para a implementação no Vercel</h2>
 
-1. Instalar o node e seu gerenciador de pacotes, ou seja, o npm 
+1. Para executar os seguintes comando você precisa ter instalado em seu sistema node
+1. Instalar o node e seu gerenciador de pacotes, ou seja, o npm
 1. Instalar o vercel através do comando: 
     ```console 
     npm install -g vercel 
