@@ -40,12 +40,11 @@
 
 <br><br>
 
-<h2 align="center">Tutorial</h2>
+<h2 align="center">Como executar</h2>
 
 ```bash
 
 # Navegando pelo github acesse o repositório ou acesse este link: https://github.com/Kaue-Francisco/portfolio_digital_dsm
-
 
 # Depois clique no botão VERDE <> Code
 
@@ -57,24 +56,49 @@ $ git clone https://github.com/Kaue-Francisco/portfolio_digital_dsm.git
 # Agora acesse a pasta clonada
 $ cd portfolio_digital_dsm
 
-# Agora acesse a página src para visualizar os arquivos de código
-$ cd src/
+# Para executar os seguinte comandos a seguir você deve ter python instalado em seu computador!
 
-# Agora entre na pasta templates para visualizar as páginas do portfólio!
-$ cd templates/
+# Você irá precisar criar um ambiente virtual em python
+$ python -m venv venv
 
-# Se você estiver utilizando Linux:
-# Ainda pelo terminal faça o seguinte comando para executar o arquivo index.html e navegar pelo portfólio!
-$ xdg-open index.html
+# Agora você deve acessar esse ambiente virtual com o seguinte comando:
 
-# Se você estiver utilizando Windows:
-# Ainda pelo terminal faça o seguinte comando para executar o arquivo index.html e navegar pelo portfólio!
-$ start index.html
+# Windows:
+$ .\venv\Scripts\activate
 
-# Se você estiver utilizando Mac:
-# Ainda pelo terminal faça o seguinte comando para executar o arquivo index.html e navegar pelo porfólio!
-$ open index.html
+# Linux:
+$ source venv/bin/activate
+
+# Agora que você esta dentro do ambiente virtual você deve baixar as depêndencias com o seguinte comando:
+$ pip install -r requeriments.txt
+
+# Agora acesse a pasta api
+$ cd api/
+
+# E execute o seguinte comando:
+$ flask run
+
+# Depois irá liberar um ip local para você 127.0.0.1:5000
+# Se você digitar este IP no seu navegador ira abrir o projeto!
 
 ```
+
+<h2 align="center">Instruções para a implementação no Vercel</h2>
+
+1. Instalar o node e seu gerenciador de pacotes, ou seja, o npm 
+1. Instalar o vercel através do comando: 
+    ```console 
+    npm install -g vercel 
+    ```
+1. Considerando que você já criou uma conta no Vercel, e que
+ está logado, utilize o comando seguinte no mesmo nível do arquivo vercel.json
+    ```console 
+    vercel
+    ```
+1. Defina um nome para a sua aplicação e utilize todas as demais opções de acordo com o padrão sugerido. 
+1. Verifique se o link disponibilizado ao final do processo de upload/build está acessível, caso não esteja, execute o comando 
+    ```console 
+    vercel --prod 
+    ```
 
 (Validação professor FGMC - 1DSM - 2023-02)

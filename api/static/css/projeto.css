@@ -1,0 +1,12 @@
+.conteudo {
+    justify-content: center;
+    margin: 1vh auto;
+    display: flex;
+    max-width: 80vh;
+    flex-wrap: wrap;
+}
+
+
+.conteudo div {
+    margin: 2%;
+}

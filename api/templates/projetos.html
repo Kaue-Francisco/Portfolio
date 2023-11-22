@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    <link rel="stylesheet" href="../static/css/projeto.css">
+    <title>Projeto</title>
+{% endblock %}
+
+{% block body %}
+
+
+<h1>Projetos Pessoais</h1>
+<div class="conteudo">
+    {% for projeto in projetos_pessoais %}
+    <div class="card" style="width: 18rem;">
+        <img src="{{projeto[0]}}" class="card-img-top" alt="projeto climate">
+        <div class="card-body">
+        <h5 class="card-title">{{projeto[1]}}</h5>
+        <p class="card-text">{{projeto[2]}}</p>
+        <a href="{{projeto[3]}}" class="btn btn-primary">Veja mais</a>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+<h1>Projetos Academicos</h1>
+<div class="conteudo">
+
+    {% for projeto in projetos_academicos %}
+    <div class="card" style="width: 18rem;">
+        <img src="{{projeto[0]}}" class="card-img-top" alt="projeto climate">
+        <div class="card-body">
+        <h5 class="card-title">{{projeto[1]}}</h5>
+        <p class="card-text">{{projeto[2]}}</p>
+        <a href="{{projeto[3]}}" class="btn btn-primary">Veja mais</a>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}
