@@ -57,6 +57,14 @@
     }
   }
 
+@media (max-width:750px) {
+    .profile-img {
+        max-width: 70%;
+        border-radius: 50%;
+        margin-top: 20px;
+    }
+}
+
 @media (max-width:450px) {
     .welcome-message {
         font-size: 18px;
