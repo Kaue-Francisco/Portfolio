@@ -3,103 +3,40 @@
 <br>
 
 <div align="center">
-    <img src="./mgt/perfil.png" width="480" height='600'>
+    <img src="./images/perfil.png" width="300" height='300'>
 </div>
 
-### Quem sou Eu?
-<p>Sou o Kauê tenho 18 anos e estou cursando na FATEC de São José dos Campos e também sou estágiario em Desenvolvimento de Software.</p>
+<br>
 
-### Contato
+## Who am i?
+<p>I'm Kauê, I am 19 years old and I am studying at FATEC São José dos Campos and also working as a Software Development intern.</p>
+
+<br>
+
+## Contact
 <p>email: kauesantos.francisco@gmail.com</p>
 <p>linkedin: https://www.linkedin.com/in/kau%C3%AA-francisco-3b13aa255/ </p>
 
-<br><br>
+<br>
 
-<h2 align="center">TECNOLOGIAS</h2>
+### TECHNOLOGIES
 
-<div align="center" style="display:flex;">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="50px" style="padding-left:10px;"/>
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" width="50px" style="padding-left:10px;"/> 
-
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="50px" style="padding-left:10px;"/>
-
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="50px" style="padding-left:10px;"/>
-
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="50px" style="padding-left:10px;"/>
-
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="50px" style="padding-left:10px;"/>
-
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="50px" style="padding-left:10px;"/>
-</div>
-
-<br><br>
-
-<h2 align="center">Como executar</h2>
-
-```bash
-
-# Navegando pelo github acesse o repositório ou acesse este link: https://github.com/Kaue-Francisco/portfolio_digital_dsm
-
-# Depois clique no botão VERDE <> Code
-
-# Selecione a opção HTTPS e copie o link.
-
-# Agora vá para o terminal e digite o seguinte comando e cole o link:
-$ git clone https://github.com/Kaue-Francisco/portfolio_digital_dsm.git
-
-# Agora acesse a pasta clonada
-$ cd portfolio_digital_dsm
-
-# Para executar os seguinte comandos a seguir você deve ter python instalado em seu computador!
-
-# Você irá precisar criar um ambiente virtual em python
-$ python -m venv venv
-
-# Agora você deve acessar esse ambiente virtual com o seguinte comando:
-
-# Windows:
-$ .\venv\Scripts\activate
-
-# Linux:
-$ source venv/bin/activate
-
-# Agora que você esta dentro do ambiente virtual você deve baixar as depêndencias com o seguinte comando:
-$ pip install -r requeriments.txt
-
-# Agora acesse a pasta api
-$ cd api/
-
-# E execute o seguinte comando:
-$ flask run
-
-# Depois irá liberar um ip local para você 127.0.0.1:5000
-# Se você digitar este IP no seu navegador ira abrir o projeto!
-
-```
-
-<h2 align="center">Instruções para a implementação no Vercel</h2>
-
-1. Para executar os seguintes comando você precisa ter instalado em seu sistema node
-1. Instalar o node e seu gerenciador de pacotes, ou seja, o npm
-1. Instalar o vercel através do comando: 
-    ```console 
-    npm install -g vercel 
-    ```
-1. Considerando que você já criou uma conta no Vercel, e que
- está logado, utilize o comando seguinte no mesmo nível do arquivo vercel.json
-    ```console 
-    vercel
-    ```
-1. Defina um nome para a sua aplicação e utilize todas as demais opções de acordo com o padrão sugerido. 
-1. Verifique se o link disponibilizado ao final do processo de upload/build está acessível, caso não esteja, execute o comando 
-    ```console 
-    vercel --prod 
-    ```
-
-(Validação professor FGMC - 1DSM - 2023-02)
+![PYTHON](https://skillicons.dev/icons?i=python)
+![OPENCV](https://skillicons.dev/icons?i=opencv)
+![PYTORCH](https://skillicons.dev/icons?i=pytorch)
+![NODEJS](https://skillicons.dev/icons?i=nodejs)
+![ARDUINO](https://skillicons.dev/icons?i=arduino)
+![C](https://skillicons.dev/icons?i=c)
+![C#](https://skillicons.dev/icons?i=cs)
+![CPP](https://skillicons.dev/icons?i=cpp)
+![HTML](https://skillicons.dev/icons?i=html)
+![CSS](https://skillicons.dev/icons?i=css)
+![JS](https://skillicons.dev/icons?i=js)
+![MYSQL](https://skillicons.dev/icons?i=mysql)
+![VSCODE](https://skillicons.dev/icons?i=vscode)
+![FIGMA](https://skillicons.dev/icons?i=figma)
+![BASH](https://skillicons.dev/icons?i=bash)
+![GIT](https://skillicons.dev/icons?i=git)
+![GITHUB](https://skillicons.dev/icons?i=github)
+![LINUX](https://skillicons.dev/icons?i=linux)
+![KALI](https://skillicons.dev/icons?i=kali)
