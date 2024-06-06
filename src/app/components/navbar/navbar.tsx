@@ -33,6 +33,16 @@ export default function Navbar() {
     };
   }, []);
 
+  const handleNavClick = (sectionId: string) => {
+    const navbarHeight = 80; // altura da navbar em pixels
+    const section = document.getElementById(sectionId);
+    if (section) {
+      const sectionTop = section.offsetTop - navbarHeight;
+      window.scrollTo({ top: sectionTop, behavior: "smooth" });
+      setIsOpen(false); // Fecha o menu quando um link é clicado
+    }
+  };
+
   return (
     <header className="bg-purple-600 text-white py-4 px-4 sm:px-6 lg:px-8 fixed w-full top-0 z-50">
       <div className="container mx-auto flex flex-wrap items-center justify-between">
@@ -66,10 +76,10 @@ export default function Navbar() {
           } sm:flex sm:items-center w-full sm:w-auto transition-all duration-300 ease-in-out`}
         >
           <ul className="flex flex-col sm:flex-row sm:space-x-6 mt-4 sm:mt-0">
-            <li><a href="#sobre" className={`block py-2 text-lg transition-colors duration-300 ${activeSection === "sobre" ? "font-bold text-purple-900" : "text-white hover:text-gray-300"}`}>Sobre</a></li>
-            <li><a href="#projetos" className={`block py-2 text-lg transition-colors duration-300 ${activeSection === "projetos" ? "font-bold text-purple-900" : "text-white hover:text-gray-300"}`}>Projetos</a></li>
-            <li><a href="#habilidades" className={`block py-2 text-lg transition-colors duration-300 ${activeSection === "habilidades" ? "font-bold text-purple-900" : "text-white hover:text-gray-300"}`}>Habilidades</a></li>
-            <li><a href="#contato" className={`block py-2 text-lg transition-colors duration-300 ${activeSection === "contato" ? "font-bold text-purple-900" : "text-white hover:text-gray-300"}`}>Contato</a></li>
+            <li><button onClick={() => handleNavClick('sobre')} className={`block py-2 text-lg transition-colors duration-300 ${activeSection === "sobre" ? "font-bold text-purple-900" : "text-white hover:text-gray-300"}`}>Sobre</button></li>
+            <li><button onClick={() => handleNavClick('projetos')} className={`block py-2 text-lg transition-colors duration-300 ${activeSection === "projetos" ? "font-bold text-purple-900" : "text-white hover:text-gray-300"}`}>Projetos</button></li>
+            <li><button onClick={() => handleNavClick('habilidades')} className={`block py-2 text-lg transition-colors duration-300 ${activeSection === "habilidades" ? "font-bold text-purple-900" : "text-white hover:text-gray-300"}`}>Habilidades</button></li>
+            <li><button onClick={() => handleNavClick('contato')} className={`block py-2 text-lg transition-colors duration-300 ${activeSection === "contato" ? "font-bold text-purple-900" : "text-white hover:text-gray-300"}`}>Contato</button></li>
           </ul>
         </nav>
       </div>
