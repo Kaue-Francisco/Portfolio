@@ -1,10 +1,11 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from 'react-icons/fa'; // Importando os ícones
+import LetterPullup from '../letterPullpup/letterPullpup';
 
 export default function Contato() {
     return (
         <section id="contato" className="mb-12">
-            <h2 className="text-2xl font-bold mb-6">Contato</h2>
+            <LetterPullup words='Contato' delay={0.08}/>
             <div className="bg-gray-100 rounded-lg p-4">
                 <p className="text-gray-600">
                     Entre em contato através do email: <a href="mailto:kauesantos.francisco@gmail.com" className="text-blue-500">kauesantos.francisco@gmail.com</a>

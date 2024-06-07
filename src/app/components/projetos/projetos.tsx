@@ -1,10 +1,11 @@
 "use client";
 
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import imageVendas from '../../../../public/images/vendas.jpeg';
 import API2 from '../../../../public/images/api-2.gif';
 import Barbearia from '../../../../public/images/barbearia.jpeg';
 import API1 from '../../../../public/images/pixels.gif';
+import LetterPullup from '../letterPullpup/letterPullpup'; // Ajuste o caminho conforme necessário
 
 interface Project {
   title: string;
@@ -84,8 +85,8 @@ const Projetos: React.FC = () => {
 
   return (
     <section id="projetos" className="mb-12">
-      <h2 className="text-2xl font-bold mb-6">Principais Projetos</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <LetterPullup words="Principais Projetos" delay={0.08} />
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
         {projects.map((project, index) => (
           <div
             key={index}
