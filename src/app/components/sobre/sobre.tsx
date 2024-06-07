@@ -4,8 +4,8 @@ import { FaDownload } from 'react-icons/fa'; // Importa o ícone de download
 
 export default function Sobre() {
   return (
-    <section id='sobre'>
-      <div className="flex flex-col-reverse items-center justify-center h-screen gap-8 px-4 sm:px-0 sm:flex-row">
+    <section id='sobre' style={{minHeight: '100vh'}}  className="py-12 px-4 md:px-0 flex justify-center items-center"> {/* Adiciona padding à seção e centraliza conteúdo */}
+      <div className="flex flex-col-reverse items-center justify-center gap-8 sm:flex-row">
         <div className="relative w-full max-w-md rounded-full overflow-hidden sm:w-80 sm:h-80 sm:mr-8 order-2 sm:order-1">
           <img
             src={FotoKaue.src}

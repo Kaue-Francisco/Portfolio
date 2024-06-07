@@ -7,7 +7,7 @@ import Sobre from './components/sobre/sobre';
 
 export default function Component() {
   return (
-    <div className="flex flex-col min-h-[100dvh]">
+    <div className="flex flex-col min-h-[100dvh]" style={{backgroundColor: '#1c1c1c'}}>
       
       <Navbar />
 

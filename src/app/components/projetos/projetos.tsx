@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import imageVendas from '../../../../public/images/vendas.jpeg';
 import API2 from '../../../../public/images/api-2.gif';
 import Barbearia from '../../../../public/images/barbearia.jpeg';
@@ -21,8 +21,14 @@ interface ModalProps {
 const Modal: React.FC<ModalProps> = ({ project, onClose }) => {
   if (!project) return null;
 
+  const handleOutsideClick = (e: React.MouseEvent<HTMLDivElement>) => {
+    if (e.target === e.currentTarget) {
+      onClose();
+    }
+  };
+
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
+    <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50" onClick={handleOutsideClick}>
       <div className="bg-white p-8 rounded-lg max-w-lg w-full relative">
         <button className="text-gray-500 absolute top-4 right-4" onClick={onClose}>X</button>
         <h3 className="text-2xl font-bold mb-4">{project.title}</h3>
