@@ -4,8 +4,8 @@ import LetterPullup from '../../components/animation/letterPullpup/letterPullpup
 
 export default function Contato() {
     return (
-        <section id='contato' className="w-full py-22 md:py-48 lg:py-22">
-            <div className="container px-4 sm:px-12 lg:px-24">
+        <section id='contato' className="w-full py-20 md:py-44">
+            <div className="container py-4 sm:px-12 lg:px-24">
                 <div className="flex flex-col items-center justify-center space-y-6 text-center">
                     <div className="space-y-2">
                         <div style={{ userSelect: 'none' }}>

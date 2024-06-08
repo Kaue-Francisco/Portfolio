@@ -23,16 +23,17 @@ export default function LetterPullup({
       (entries) => {
         if (entries[0].isIntersecting) {
           setIsVisible(true);
-          observer.disconnect();
+        } else {
+          setIsVisible(false);
         }
       },
       { threshold: 0.1 }
     );
-
+  
     if (ref.current) {
       observer.observe(ref.current);
     }
-
+  
     return () => {
       if (ref.current) {
         observer.unobserve(ref.current);
@@ -51,22 +52,27 @@ export default function LetterPullup({
     }),
   };
 
-  const containerClassName = words === "Meus Contatos" ? "flex justify-center" : "flex justify-start";
+  const containerClassName =
+    words === "Meus Contatos" ? "flex justify-center" : "flex justify-start";
 
   return (
-    <div ref={ref} className={containerClassName}>
+    <div
+      ref={ref}
+      className={`${containerClassName} w-full max-w-full flex-wrap overflow-hidden`}
+    >
       {isVisible &&
         letters.map((letter, i) => (
-          <motion.h1
+          <motion.span
             key={i}
             variants={pullupVariant}
             initial="initial"
             animate="animate"
             custom={i}
-            className={`font-display text-center text-xl md:text-4xl font-bold tracking-[-0.02em] text-black drop-shadow-sm text-white md:leading-[5rem] ${className}`}
+            className={`font-display font-bold tracking-[-0.02em] text-black drop-shadow-sm text-white ${className}`}
+            style={{ fontSize: 'clamp(1rem, 2vw + 1rem, 2rem)', lineHeight: 'clamp(1.5rem, 2.5vw + 1.5rem, 5rem)' }}
           >
             {letter === " " ? <span>&nbsp;</span> : letter}
-          </motion.h1>
+          </motion.span>
         ))}
     </div>
   );
