@@ -1,9 +1,9 @@
-import Projetos from './components/projetos/projetos';
-import Habilidades from './components/habilidades/habilidades';
+import Projetos from './content/projetos/projetos';
+import Habilidades from './content/habilidades/habilidades';
 import Navbar from './components/navbar/navbar';
-import Contato from './components/contato/contato';
+import Contato from './content/contato/contato';
 import Footer from './components/footer/footer';
-import Sobre from './components/sobre/sobre';
+import Sobre from './content/sobre/sobre';
 
 export default function Component() {
   return (

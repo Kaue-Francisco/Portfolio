@@ -51,8 +51,10 @@ export default function LetterPullup({
     }),
   };
 
+  const containerClassName = words === "Meus Contatos" ? "flex justify-center" : "flex justify-start";
+
   return (
-    <div ref={ref} className="flex justify-start">
+    <div ref={ref} className={containerClassName}>
       {isVisible &&
         letters.map((letter, i) => (
           <motion.h1

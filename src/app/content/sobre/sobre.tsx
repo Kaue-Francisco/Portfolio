@@ -1,7 +1,7 @@
 import React from 'react';
 import FotoKaue from '../../../../public/images/Foto-Kauê.png';
 import { FaDownload } from 'react-icons/fa';
-import TypingAnimation from '../typingAnimation/typeAnimation';
+import TypingAnimation from '../../components/animation/typingAnimation/typeAnimation';
 
 export default function Sobre() {
   return (

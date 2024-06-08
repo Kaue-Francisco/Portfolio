@@ -1,17 +1,17 @@
 import React from "react";
 import { FaPython, FaJs, FaDatabase, FaDocker, FaNode, FaGithub, FaGit, FaLinux } from 'react-icons/fa';
 import { SiOpencv, SiTypescript, SiC, SiFlask } from 'react-icons/si'; // Outros ícones
-import LetterPullup from '../letterPullpup/letterPullpup';
+import LetterPullup from '../../components/animation/letterPullpup/letterPullpup';
 
 export default function Habilidades() {
     const iconClass = "h-8 w-8 mb-2 transition-transform duration-300";
     const boxClass = "bg-gray-100 rounded-lg p-4 flex flex-col items-center justify-center transform transition-transform duration-300 hover:shadow-lg hover:scale-105";
 
     return (
-        <section id="habilidades" className="mb-12">
+        <section id="habilidades" className="mb-12 px-6 sm:px-12 lg:px-24">
             <LetterPullup words='Habilidades' delay={0.08} />
             
-            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 gap-4">
                 <div className={`${boxClass} group`}>
                     <FaPython className={`${iconClass} group-hover:text-purple-500 text-black`} />
                     <span className="text-gray-600">Python</span>
