@@ -8,7 +8,7 @@ export default function Habilidades() {
     const boxClass = "bg-gray-100 rounded-lg p-4 flex flex-col items-center justify-center transform transition-transform duration-300 hover:shadow-lg hover:scale-105";
 
     return (
-        <section id="habilidades" className="mb-12 px-6 sm:px-12 lg:px-24">
+        <section id="habilidades" style={{ userSelect: 'none' }} className="mb-12 px-6 py-14 sm:px-12 lg:px-24">
             <LetterPullup words='Habilidades' delay={0.08} />
             
             <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 gap-4">

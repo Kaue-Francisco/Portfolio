@@ -3,6 +3,8 @@ export interface Project {
     image: string;
     category: string;
     details: string;
+    technologies: string[];
+    link: string;
   }
   
 export interface ModalProps {
