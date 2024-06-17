@@ -22,14 +22,18 @@ const Modal: React.FC<ModalProps> = ({ project, onClose }) => {
     <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50" onClick={handleOutsideClick}>
       <div className="bg-white p-8 rounded-lg max-w-lg w-full relative">
         <button className="text-gray-500 absolute top-4 right-4" onClick={onClose}>X</button>
-        <h3 className="text-2xl text-gray-800 font-bold mb-4">{project.title}</h3>
-        <img src={project.image} alt={project.title} className="w-full h-48 object-cover mb-4" />
-        <p className="text-gray-600 mb-2">{project.category}</p>
-        <p className="text-gray-600 mb-4">Tecnologias: {project.technologies.join(', ')}</p>
-        <p className="text-gray-600 mb-2">{project.details}</p>
-        <a href={project.link} target="_blank"><FaGithub className={`${iconClass} text-black hover:text-purple-500`} /></a>
+        <div style={{ height: '430px', overflowY: 'auto' }}> {/* Altura fixa e barra de rolagem */}
+          <h3 className="text-2xl text-gray-800 font-bold mb-4">{project.title}</h3>
+          <img src={project.image} alt={project.title} className="w-full h-48 object-cover mb-4" />
+          <p className="text-gray-600 mb-2">{project.category}</p>
+          <p className="text-gray-600 mb-4">Tecnologias: {project.technologies.join(', ')}</p>
+          <p className="text-gray-600 mb-2">{project.details}</p>
+          <a href={project.link} target="_blank" rel="noopener noreferrer">
+            <FaGithub className={`${iconClass} text-black hover:text-purple-500`} />
+          </a>
+        </div>
       </div>
-    </div>
+</div>
   );
 };
 

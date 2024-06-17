@@ -59,7 +59,7 @@ export default function TypingAnimation({
   return (
     <h1
       ref={ref}
-      className={`font-display text-center text-4xl font-bold leading-[5rem] tracking-[-0.02em] drop-shadow-sm ${className}`}
+      className={`font-display text-center text-white text-4xl font-bold leading-[5rem] tracking-[-0.02em] drop-shadow-sm ${className}`}
     >
       {displayedText ? displayedText : text}
     </h1>

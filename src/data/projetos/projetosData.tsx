@@ -16,16 +16,16 @@ export const projects: Project[] = [
   {
     title: 'API 2° Semestre',
     image: API2.src,
-    category: 'FATEC',
-    details: 'O projeto é uma aplicação web desenvolvida para facilitar a gestão de solicitações de suporte técnico.',
+    category: 'FATEC Prof. Jessen Vidal',
+    details: 'O projeto é uma aplicação web desenvolvida para facilitar a gestão de solicitações de suporte técnico. Neste projeto eu colaborei com o desenvolvimento backend da aplicação. Realizei funcionalidade como criação de Problema, validação de horário de técnico, organização de código. Entre outros...',
     technologies: ['React', 'Prisma', 'Node.js', 'TypeScript', 'MySQL'], // Exemplo de tecnologias utilizadas
     link: 'https://github.com/TeamHiveAPI/API-2023.2'
   },
   {
     title: 'API 1° Semestre',
     image: API1.src,
-    category: 'FATEC',
-    details: 'Este projeto teve o intuito de fazer uma plataforma de auxilio para mães que possuem filhos com Insuficiencia Renal Cronica.',
+    category: 'FATEC Prof. Jessen Vidal',
+    details: 'Este projeto teve o intuito de fazer uma plataforma de auxilio para mães que possuem filhos com Insuficiencia Renal Cronica. Neste projeto eu colaborei com o desenvolvimento backend da aplicação. Realizei funcinalidades como, troca de senha, validação de usuario, criar conta, criar postagem do blog. Entre outros...',
     technologies: ['Python', 'JavaScript', 'Flask', 'HTML', 'CSS', 'MySQL'], // Exemplo de tecnologias utilizadas
     link: 'https://github.com/Kaue-Francisco/Pixels'
   },
@@ -48,7 +48,7 @@ export const projects: Project[] = [
   {
     title: 'Projeto Final Desenvolvimento Web',
     image: imageVendas.src,
-    category: 'FATEC',
+    category: 'FATEC Prof. Jessen Vidal',
     details: 'É o Projeto Final Desenvolvimento Web na FATEC. Gerenciamento de Vendas de um mercado aonde o administrador consegue, adicionar, editar, excluir e visualizar produtos, vendas e clientes',
     technologies: ['React', 'Prisma', 'TypeScript', 'Node.js', 'Express', 'MySQL'], // Exemplo de tecnologias utilizadas
     link: 'https://github.com/Kaue-Francisco/Desenvolvimento-Web-2/tree/main/projeto_final',
