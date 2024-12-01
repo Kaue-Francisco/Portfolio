@@ -19,7 +19,7 @@ export default function Sobre() {
         <div className="text-center sm:text-left order-1 sm:order-2">
            <div style={{ userSelect: 'none' }}><TypingAnimation text="Kauê dos Santos Francisco" duration={100} /></div>
           <p className="text-gray-400 mt-4 max-w-md">
-            Kauê Francisco é um desenvolvedor backend apaixonado por tecnologia. Ele tem trabalhado na área por mais
+            Kauê Francisco é um desenvolvedor apaixonado por tecnologia. Ele tem trabalhado na área por mais
             de 2 anos, explorando constantemente novas tecnologias. Com interesse em Visão Computacional e Segurança da
             Informação, ele está sempre em busca de novos desafios.
           </p>

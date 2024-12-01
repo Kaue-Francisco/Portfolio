@@ -48,7 +48,7 @@ export default function Navbar() {
       <div className="container mx-auto flex flex-wrap items-center justify-between">
         <div className="flex items-center">
           <h1 className="text-3xl font-bold mb-2 sm:mb-0">Portfólio</h1>
-          <p className="text-gray-300 text-lg hidden sm:block ml-4">Desenvolvedor Backend</p>
+          <p className="text-gray-300 text-lg hidden sm:block ml-4">Desenvolvedor</p>
         </div>
         <button 
           className="block sm:hidden text-white focus:outline-none"

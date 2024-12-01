@@ -2,6 +2,7 @@ import imageVendas from '../../../public/images/vendas.jpeg';
 import API2 from '../../../public/images/api-2.gif';
 import Barbearia from '../../../public/images/barbearia.jpeg';
 import API1 from '../../../public/images/pixels.gif';
+import API3 from '../../../public/images/api-3.gif';
 import { Project } from '../interfaces/projetosInterface';
 
 export const projects: Project[] = [
@@ -9,6 +10,14 @@ export const projects: Project[] = [
     title: 'Tracking com DeepSort',
     image: 'https://github.com/Kaue-Francisco/Deepsort_Yolov5/raw/main/media/example.gif',
     category: 'Pessoal',
+    details: "Este projeto contém um código simples de rastreamento em objetos (Deep SORT). O código carrega o modelo coco yolov5 e o utiliza para detectar carros na estrada, conforme mostrado no exemplo.",
+    technologies: ['Python', 'JupyterNotebook', 'OpenCV', 'YOLOv5'], // Exemplo de tecnologias utilizadas
+    link: 'https://github.com/Kaue-Francisco/Deepsort_Yolov5.git'
+  },
+  {
+    title: 'API 3° Semestre',
+    image: API3.src,
+    category: 'FATEC Prof. Jessen Vidal',
     details: "Este projeto contém um código simples de rastreamento em objetos (Deep SORT). O código carrega o modelo coco yolov5 e o utiliza para detectar carros na estrada, conforme mostrado no exemplo.",
     technologies: ['Python', 'JupyterNotebook', 'OpenCV', 'YOLOv5'], // Exemplo de tecnologias utilizadas
     link: 'https://github.com/Kaue-Francisco/Deepsort_Yolov5.git'

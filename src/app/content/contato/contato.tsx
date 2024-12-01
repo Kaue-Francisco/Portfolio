@@ -4,7 +4,7 @@ import LetterPullup from '../../components/animation/letterPullpup/letterPullpup
 
 export default function Contato() {
     return (
-        <section id='contato' className="w-full py-20 md:py-44">
+        <section id='contato' className="w-full py-20 md:py-44 min-h-[80vh] flex items-center">
             <div className="container py-4 sm:px-12 lg:px-24">
                 <div className="flex flex-col items-center justify-center space-y-6 text-center">
                     <div className="space-y-2">

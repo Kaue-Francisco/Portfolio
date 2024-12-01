@@ -1,6 +1,6 @@
 import React from "react";
-import { FaPython, FaJs, FaDatabase, FaDocker, FaNode, FaGithub, FaGit, FaLinux } from 'react-icons/fa';
-import { SiOpencv, SiTypescript, SiC, SiFlask } from 'react-icons/si'; // Outros ícones
+import { FaPython, FaJs, FaDatabase, FaDocker, FaNode, FaGithub, FaGit, FaLinux, FaJava, FaReact } from 'react-icons/fa';
+import { SiOpencv, SiTypescript, SiC, SiFlask, SiSpring  } from 'react-icons/si'; // Outros ícones
 import LetterPullup from '../../components/animation/letterPullpup/letterPullpup';
 
 export default function Habilidades() {
@@ -59,6 +59,18 @@ export default function Habilidades() {
                 <div className={`${boxClass} group`}>
                     <FaLinux className={`${iconClass} group-hover:text-purple-500 text-black`} />
                     <span className="text-gray-600">Linux</span>
+                </div>
+                <div className={`${boxClass} group`}>
+                    <FaJava className={`${iconClass} group-hover:text-purple-500 text-black`} />
+                    <span className="text-gray-600">Java</span>
+                </div>
+                <div className={`${boxClass} group`}>
+                    <SiSpring className={`${iconClass} group-hover:text-purple-500 text-black`} />
+                    <span className="text-gray-600">Spring</span>
+                </div>
+                <div className={`${boxClass} group`}>
+                    <FaReact className={`${iconClass} group-hover:text-purple-500 text-black`} />
+                    <span className="text-gray-600">React</span>
                 </div>
             </div>
         </section>
