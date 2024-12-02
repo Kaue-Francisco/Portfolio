@@ -18,15 +18,15 @@ export const projects: Project[] = [
     title: 'API 3° Semestre',
     image: API3.src,
     category: 'FATEC Prof. Jessen Vidal',
-    details: "Este projeto contém um código simples de rastreamento em objetos (Deep SORT). O código carrega o modelo coco yolov5 e o utiliza para detectar carros na estrada, conforme mostrado no exemplo.",
-    technologies: ['Python', 'JupyterNotebook', 'OpenCV', 'YOLOv5'], // Exemplo de tecnologias utilizadas
-    link: 'https://github.com/Kaue-Francisco/Deepsort_Yolov5.git'
+    details: "Este projeto é uma aplicação de portal de transparência para a fundação FAPG. Seu objetivo era realizar uma aplicação intuitiva que atingesse todos os requisistos de administração do cliente. No projeto eu colbarei com o envio de email para o administrador quando o projeto for vencer e refatoração do código. SoftSkills: Neste projeto atuei novamente como Scrum Master mas de uma forma mais correta, novamente fiz um grupo com pessoas diferentes na intenção de melhorar minha comunicação e trabalho em equipe.",
+    technologies: ['Spring Boot', 'Java', 'React', 'MySQL'], // Exemplo de tecnologias utilizadas
+    link: 'https://github.com/Sync-FATEC/API-2024.2-3SEM'
   },
   {
     title: 'API 2° Semestre',
     image: API2.src,
     category: 'FATEC Prof. Jessen Vidal',
-    details: 'O projeto é uma aplicação web desenvolvida para facilitar a gestão de solicitações de suporte técnico. Neste projeto eu colaborei com o desenvolvimento backend da aplicação. Realizei funcionalidade como criação de Problema, validação de horário de técnico, organização de código. Entre outros...',
+    details: 'O projeto é uma aplicação web desenvolvida para facilitar a gestão de solicitações de suporte técnico. Neste projeto eu colaborei com o desenvolvimento backend da aplicação. Realizei funcionalidade como criação de Problema, validação de horário de técnico, organização de código. SoftSkills: neste projeto eu me juntei ao novo grupo de pessoas na intenção de melhorar o trabalhar em equipe. Neste projeto atuei como desenvolvedor.',
     technologies: ['React', 'Prisma', 'Node.js', 'TypeScript', 'MySQL'], // Exemplo de tecnologias utilizadas
     link: 'https://github.com/TeamHiveAPI/API-2023.2'
   },
@@ -34,7 +34,7 @@ export const projects: Project[] = [
     title: 'API 1° Semestre',
     image: API1.src,
     category: 'FATEC Prof. Jessen Vidal',
-    details: 'Este projeto teve o intuito de fazer uma plataforma de auxilio para mães que possuem filhos com Insuficiencia Renal Cronica. Neste projeto eu colaborei com o desenvolvimento backend da aplicação. Realizei funcinalidades como, troca de senha, validação de usuario, criar conta, criar postagem do blog. Entre outros...',
+    details: 'Este projeto teve o intuito de fazer uma plataforma de auxilio para mães que possuem filhos com Insuficiencia Renal Cronica. Neste projeto eu colaborei com o desenvolvimento backend da aplicação. Realizei funcinalidades como, troca de senha, validação de usuario, criar conta, criar postagem do blog. SoftSkills: este projeto foi realizado no primeiro semeste da minha faculdade com isso a dificuldade que encontrei foi a adaptação ao trabalho em equipe, a comunicação e a organização de tarefas. Neste projeto atuei como Scrum Master.',
     technologies: ['Python', 'JavaScript', 'Flask', 'HTML', 'CSS', 'MySQL'], // Exemplo de tecnologias utilizadas
     link: 'https://github.com/Kaue-Francisco/Pixels'
   },
