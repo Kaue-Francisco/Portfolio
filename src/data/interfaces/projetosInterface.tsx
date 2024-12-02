@@ -4,6 +4,7 @@ export interface Project {
     category: string;
     details: string;
     softskills: string;
+    contribution: string;
     technologies: string[];
     link: string;
   }

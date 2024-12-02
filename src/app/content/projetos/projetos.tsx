@@ -28,6 +28,7 @@ const Modal: React.FC<ModalProps> = ({ project, onClose }) => {
           <p className="text-gray-600 mb-2">{project.category}</p>
           <p className="text-gray-600 mb-4">Tecnologias: {project.technologies.join(', ')}</p>
           <p className="text-gray-600 mb-2">{project.details}</p>
+          <p className="text-gray-600 mb-2">{project.contribution}</p>
           <p className="text-gray-600 mb-2">{project.softskills}</p>
           <a href={project.link} target="_blank" rel="noopener noreferrer">
             <FaGithub className={`${iconClass} text-black hover:text-purple-500`} />
