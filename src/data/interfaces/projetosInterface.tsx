@@ -3,6 +3,7 @@ export interface Project {
     image: string;
     category: string;
     details: string;
+    softskills: string;
     technologies: string[];
     link: string;
   }
