@@ -27,9 +27,10 @@ const Modal: React.FC<ModalProps> = ({ project, onClose }) => {
           <img src={project.image} alt={project.title} className="w-full h-48 object-cover mb-4" />
           <p className="text-gray-600 mb-2">{project.category}</p>
           <p className="text-gray-600 mb-4">Tecnologias: {project.technologies.join(', ')}</p>
-          <p className="text-gray-600 mb-2">{project.details}</p>
-          <p className="text-gray-600 mb-2">{project.contribution}</p>
-          <p className="text-gray-600 mb-2">{project.softskills}</p>
+          <p className="text-gray-600 mb-4">{project.details}</p>
+          <p className="text-gray-600 mb-4">{project.contribution}</p>
+          <p className="text-gray-600 mb-4">{project.hardskills}</p>
+          <p className="text-gray-600 mb-4">{project.softskills}</p>
           <a href={project.link} target="_blank" rel="noopener noreferrer">
             <FaGithub className={`${iconClass} text-black hover:text-purple-500`} />
           </a>
