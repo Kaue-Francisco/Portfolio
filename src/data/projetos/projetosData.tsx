@@ -3,9 +3,33 @@ import API2 from '../../../public/images/api-2.gif';
 import Barbearia from '../../../public/images/barbearia.jpeg';
 import API1 from '../../../public/images/pixels.gif';
 import API3 from '../../../public/images/api-3.gif';
+import API5 from '../../../public/images/api-5.gif';
+import API4 from '../../../public/images/api-4.gif';
 import { Project } from '../interfaces/projetosInterface';
 
 export const projects: Project[] = [
+  {
+    title: 'API 5° Semestre',
+    image: API5.src,
+    category: 'FATEC Prof. Jessen Vidal',
+    details: "No segundo semestre de 2025 colaborei em um projeto onde seu objetivo foi o desenvolvimento de uma sistema mobile para a gestão e controle de estoque de almoxorifado e famarcia em parceria com o exercito de caçapava.",
+    contribution: 'Contribuição: Neste projeto fiquei responsável por desenvolver a maioria dos componentes e telas da aplicação mobile utilizando Flutter. Também colaborei com a integração do frontend com o backend utilizando APIs RESTful. Durante o desenvolvimento, enfrentei desafios relacionados à otimização do desempenho da aplicação e à implementação de funcionalidades específicas solicitadas pelo cliente. Trabalhei em estreita colaboração com a equipe de backend para garantir que as funcionalidades fossem implementadas de acordo com os requisitos do projeto. Além disso, participei de reuniões regulares com o cliente para apresentar o progresso do projeto e receber feedbacks que foram essenciais para aprimorar a aplicação.',
+    hardskills: 'HardSkills: Trabalhado neste projeto foram: Flutter, Node, React, HTML, CSS, TypeScript, PostGreSQL, Git, Firebase',
+    softskills: "SoftSkills: Neste projeto a comunicação, trabalho em equipe, adaptação e proatividade foram os pontos mais trabalhos. Com a entrada de novos integrantes tivemos que nos adaptar a nova realidade e também tivemos que ser proativos para que o projeto não atrasasse. A comunicação foi um dos pontos mais importantes pois com a entrada de novos integrantes tivemos que explicar o projeto, as funcionalidades e também tivemos que explicar o que cada um estava fazendo. Dificuldades que encontrei nesse projeto foi a comunicação com os novos integrantes, pois eles não estavam acostumados com o nosso ritmo e também tivemos que fazer um replanejamento das tarefas pois nós tinhamos definidos tarefas para 6 pessoas e com um grupo maior também se espera mais resultados.",
+    technologies: ['Flutter', 'Node', 'React', 'HTML', 'CSS', 'TypeScript', 'PostgreSQL', 'Git', 'Firebase'],
+    link: 'https://github.com/Sync-FATEC/API-2025.2-5SEM'
+  },
+  {
+    title: 'API 4° Semestre',
+    image: API4.src,
+    category: 'FATEC Prof. Jessen Vidal',
+    details: "No primeiro semestre de 2025 colaborei em um projeto onde seu objetivo foi o desenvolvimento de uma aplicação web para a monitoramente de dados com dashboard de estação meteorológica em parceria com a fundação FAPG localizada no PIT (Parque de Inovação Tecnológica) em São José dos Campos. A aplicação coleta dados de sensores IoT utilizando o protocolo MQTT e armazena essas informações em um banco de dados. O dashboard apresenta gráficos e estatísticas em tempo real, permitindo aos usuários monitorar as condições climáticas de forma eficiente.",
+    contribution: 'Contribuição: Neste projeto eu contribui com o desenvolvimento da coleta de dados da estação para o envio via MQTT para o backend. Também colaborei com a criação do dashboard utilizando React, onde implementei gráficos interativos para exibir os dados coletados. Durante o desenvolvimento, enfrentei desafios relacionados à integração do protocolo MQTT com o backend e à otimização do desempenho do dashboard para lidar com grandes volumes de dados em tempo real. Trabalhei em estreita colaboração com a equipe de backend para garantir que as funcionalidades fossem implementadas de acordo com os requisitos do projeto. Além disso, participei de reuniões regulares com o cliente para apresentar o progresso do projeto e receber feedbacks que foram essenciais para aprimorar a aplicação.',
+    hardskills: 'HardSkills: Trabalhado neste projeto foram: TypeScript, Node, React, HTML, CSS, Python, PostgreSQL, Git, MongoDB, MQTT',
+    softskills: "SoftSkills: Neste projeto a comunicação, trabalho em equipe, adaptação e proatividade foram os pontos mais trabalhos. Com a entrada de novos integrantes tivemos que nos adaptar a nova realidade e também tivemos que ser proativos para que o projeto não atrasasse. A comunicação foi um dos pontos mais importantes pois com a entrada de novos integrantes tivemos que explicar o projeto, as funcionalidades e também tivemos que explicar o que cada um estava fazendo. Dificuldades que encontrei nesse projeto foi a comunicação com os novos integrantes, pois eles não estavam acostumados com o nosso ritmo e também tivemos que fazer um replanejamento das tarefas pois nós tinhamos definidos tarefas para 6 pessoas e com um grupo maior também se espera mais resultados.",
+    technologies: ['TypeScript', 'Node', 'React', 'PostgreSQL', 'MongoDB', 'HTML', 'CSS', 'Git', 'Python', "MQTT"],
+    link: 'https://github.com/Sync-FATEC/API-2025.1-4SEM'
+  },
   {
     title: 'Tracking com DeepSort',
     image: 'https://github.com/Kaue-Francisco/Deepsort_Yolov5/raw/main/media/example.gif',

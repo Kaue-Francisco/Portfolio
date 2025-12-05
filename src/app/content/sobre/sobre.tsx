@@ -23,7 +23,7 @@ export default function Sobre() {
             de 2 anos, explorando constantemente novas tecnologias. Com interesse em Visão Computacional e Segurança da
             Informação, ele está sempre em busca de novos desafios.
           </p>
-          <span className="block text-gray-400 text-lg font-normal mt-2">Software Developer Intern </span>
+          <span className="block text-gray-400 text-lg font-normal mt-2">Desenvolvedor Full Stack</span>
           <div className="mt-6">
             <a
               href="/curriculo.pdf"
